@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%; 
+    height: 100vh;
+    background: radial-gradient(circle,rgb(250, 249, 250),rgb(193, 10, 218));
+}
+.headear{
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
+.headear h1{
+    color: rgb(5, 5, 10);
+    font-family: 'Great Vibes';
+    font-size: 40px
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 480px;
+    background: #fff;
+}
+.swiper-slide .imgBx{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.swiper-slide .imgBx img{
+    width: 100%;
+}
+.swiper-slide .details{
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 20px;
+}
+.swiper-slide .details h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+.swiper-slide .details h3 span{
+    font-size: 16px;
+    color:#f44336;
+}
+
